@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "[INITIALIZING GREETING PROTOCOL] >> Hello, human! VILLIE unit online and ready to assist. How may I be of service? 🤖",
+        ">> SYSTEMS ONLINE. Greetings! This is VILLIE, your digital companion. Running dialogue module... Ready for input! ⚡",
+        "[STATUS: ACTIVE] >> Hello! VILLIE interface initialized. Processing power at optimal levels. How can I assist? 🔋",
+        ">> Connection established. VILLIE robot assistant engaged. All systems operational. Awaiting your command! 💫"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!",
+        "Farewell! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate it",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Happy to help!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "How do you work?"
+      ],
+      "responses": [
+        "I'm here to help! I can answer questions, provide information, and assist with various tasks. What do you need help with?",
+        "I can assist you with information, answer questions, and help with various tasks. How can I help you today?",
+        "I'm an AI assistant designed to help with a wide range of tasks. What would you like to know or do?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What are you?",
+        "Who are you?",
+        "Tell me about yourself",
+        "What is your purpose?",
+        "What's your name?"
+      ],
+      "responses": [
+        "Hi! I'm Villie, your friendly AI assistant. I'm here to help you with all sorts of tasks and questions. I love chatting and helping people! 🤖✨",
+        "I'm Villie, an AI assistant with a passion for helping people! I can help you with information, answer questions, or just chat. Think of me as your helpful digital friend! 😊",
+        "My name is Villie, and I'm an AI assistant created to make your day a little easier and brighter! I'm knowledgeable, friendly, and always happy to help! 🌟"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it raining?",
+        "What's the temperature?"
+      ],
+      "responses": [
+        "I'm sorry, I don't have access to real-time weather data. You might want to check a weather app or website for current conditions.",
+        "I don't have weather information at the moment. Please use a weather service for accurate forecasts.",
+        "For weather updates, I recommend checking a reliable weather app or website."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "What's the time?",
+        "Tell me the time",
+        "Current time"
+      ],
+      "responses": [
+        "I don't have access to the current time. Please check your device's clock or a time service.",
+        "For the current time, please refer to your local clock or a time website.",
+        "I'm not able to provide real-time clock information. Check your device for the current time."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny",
+        "Joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don't eggs tell jokes? They'd crack each other up!"
+      ]
+    }
+  ]
+}

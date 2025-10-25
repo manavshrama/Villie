@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./chatbot.db
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+  streamlit:
+    build:
+      context: ../streamlit-app
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../data:/app/data
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
