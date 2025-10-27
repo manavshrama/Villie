@@ -185,6 +185,11 @@ DEBUG=False
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+##Preview
+<img width="1904" height="1065" alt="image" src="https://github.com/user-attachments/assets/a7282936-d2dd-4a29-9514-42125357bede" />
+
+
+
 ## Acknowledgments
 
 - Built with FastAPI, React, and TensorFlow
